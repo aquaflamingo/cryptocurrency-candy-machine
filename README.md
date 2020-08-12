@@ -10,6 +10,8 @@ intiate checkout.
 
 When the flask app receives a new payment event it triggers a servo expected to be mounted to the candy machine to dispense candy. 
 
+![machine](./media/airdropz.jpg)
+
 ## How to Build
 
 Total cost is ~$150 but you can probably go cheaper with a more inexpensive Raspberry Pi.
