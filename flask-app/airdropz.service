@@ -1,0 +1,15 @@
+[Unit]
+Description=Airdropz Dispense Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u app.py
+WorkingDirectory=/home/pi/airdropz/flask-app
+Environment="AIRDROPZ_CB_COMMERCE_KEY=your_api_key_here"
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
