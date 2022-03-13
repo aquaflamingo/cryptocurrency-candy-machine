@@ -40,8 +40,5 @@ to Coinbase Commerce checkout screen.
 
 MIT 
 
-## Author
-@RobertSimoes
-
 
 

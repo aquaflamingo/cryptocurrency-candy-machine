@@ -1,4 +1,4 @@
-package com.robertsimoes.pos_android;
+package com.aquaflamingo.pos_android;
 
 import org.junit.Test;
 
