@@ -1,5 +1,5 @@
 # Airdropz Candy
-
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 Airdropz is an automated candy dispenser which uses cryptocurrency for payments via Coinbase Commerce.
 
 The system is composed of a coninuously polling Flask server on the
@@ -23,11 +23,6 @@ Total cost is ~$150 but you can probably go cheaper with a more inexpensive Rasp
 ### Mounting Servo
 
 Take apart the Candy machine, and locate the [adjustable dispensing wheel](https://www.candymachines.com/images/helper/carousel-gumball-machines/carousel-gumball-machine-parts.jpg). You will need to insert the servo such that the blade sits within one of the notches of the wheel. When triggered, the servo rotates and spins the wheel causing the candy to be dispensed.
-
-## Demo
-
-[![alt
-text](./media/youtube-img.jpg)](https://www.youtube.com/watch?v=UmbGezcIINY)
 
 ## Repos
 [RPi Flask Server](./flask-app): Flask server on Raspberry Pi
